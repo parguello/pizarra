@@ -3,7 +3,7 @@ Spanish Lessons from the whiteboard
 
 ## Intro
 
-This application used to showcase Angularjs and the Playframework while learning basic Spanish phrases.
+This application is used to showcase Angularjs and the Playframework while learning basic Spanish phrases.
 
 ## Running
 
