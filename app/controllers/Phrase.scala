@@ -1,12 +1,13 @@
 package controllers
 
-import models._
 import play.api.Routes
 import play.api.cache._
 import play.api.libs.functional.syntax._
 import play.api.libs.json.Reads._
 import play.api.libs.json._
 import play.api.mvc._
+
+import models._
 
 class Phrase(val cache: CacheApi) extends Controller with Logging {
 
@@ -18,9 +19,10 @@ class Phrase(val cache: CacheApi) extends Controller with Logging {
 
 
  implicit val DictionaryFromJson = (
-    (__ \ "entry").read[String](minLength[String](5)) ~
-      (__ \ "password").read[String](minLength[String](8))
-    )((entry, password) => Dictionary(entry, password))
+      (__ \ "entry").read[String] ~ (__ \ "password").read[String]
+    ) (
+      (entry, password) => Dictionary(entry, password)
+    )
 
 
   def submit() = Action(parse.json) { implicit request =>

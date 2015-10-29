@@ -18,7 +18,6 @@ class AppComponents(context: Context) extends BuiltInComponentsFromContext(conte
   lazy val applicationController = new controllers.Application(defaultCacheApi)
   lazy val usersController = new controllers.Users(defaultCacheApi)
   lazy val phraseController = new controllers.Phrase(defaultCacheApi)
-  
   lazy val assets = new controllers.Assets(httpErrorHandler)
 
 

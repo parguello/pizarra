@@ -12,6 +12,7 @@ define(['angular', 'common'], function (angular) {
     
     return {
       submitPhrase: function (dictionary) {
+        $log.info("in function");
         return playRoutes.controllers.Phrase.submit().post(dictionary).then(function (response) {
            $log.info("phrase added");
            resdata = response.data;

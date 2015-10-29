@@ -5,6 +5,10 @@ Spanish Lessons from the whiteboard
 
 This application is used to showcase Angularjs and the Playframework while learning basic Spanish phrases.
 
+## Installation
+
+This application uses Play 2.3.x and requires Nodejs to be installed. 
+
 ## Running
 
 ### Dev Mode
