@@ -4,16 +4,16 @@
 define([], function() {
   'use strict';
 
-  var PhraseCtrl = function(/*$scope*/) {
-    // $scope.credentials = {};
+  var PhraseCtrl = function($scope, $location, phraseService) {
+    $scope.dictionary = {};
 
-    // $scope.login = function(credentials) {
-    //   userService.loginUser(credentials).then(function(/*user*/) {
-    //     $location.path('/dashboard');
-    //   });
-    // };
+    $scope.submit = function(dictionary) {
+       phraseService.submitPhrase(dictionary).then(function(/*phrase*/) {
+         $location.path('/');
+       });
+    };
   };
-  //PhraseCtrl.$inject = ['$scope'];
+  PhraseCtrl.$inject = ['$scope', '$location', 'phraseService'];
 
   return {
     PhraseCtrl: PhraseCtrl

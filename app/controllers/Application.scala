@@ -36,6 +36,7 @@ class Application(val cache: CacheApi) extends Controller with Security with Log
    * @todo If you have controllers in multiple packages, you need to add each package here.
    */
   val routeCache = {
+    log.info("routeCache:" + classOf[routes.javascript])
     val jsRoutesClasses = Seq(classOf[routes.javascript]) // TODO add your own packages
     jsRoutesClasses.flatMap { jsRoutesClass =>
       val controllers = jsRoutesClass.getFields.map(_.get(null))

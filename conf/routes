@@ -12,7 +12,7 @@ GET           /jsroutes.js         controllers.Application.jsRoutes()
 # ~~~~
 
 # Authentication
-POST          /login               controllers.Application.login()
+POST          /login              controllers.Application.login()
 POST          /logout              controllers.Application.logout()
 
 # Users
@@ -21,6 +21,9 @@ POST          /users               controllers.Users.createUser()
 PUT           /users/:id           controllers.Users.updateUser(id: Long)
 DELETE        /users/:id           controllers.Users.deleteUser(id: Long)
 GET           /authuser            controllers.Users.authUser()
+
+# Phrase
+POST          /submit              controllers.Phrase.submit()
 
 # Static
 # ~~~~
