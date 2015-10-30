@@ -66,12 +66,12 @@ define(['angular', 'require', 'jsRoutes'], function (angular, require, jsRoutes)
 
     var addRoutes = function (playRoutesObject, jsRoutesObject) {
       for (var key in jsRoutesObject) {
-        console.log("jsRoutesObject key:" + key);
+        //console.log("jsRoutesObject key:" + key);
         if (isControllerKey(key)) {
           var controller = jsRoutesObject[key];
           addControllerObject(key, playRoutesObject);
           for (var methodKey in controller) {
-            console.log("methodKey:" + methodKey);
+            //console.log("methodKey:" + methodKey);
             playRoutesObject[key][methodKey] = wrapHttp(controller[methodKey]);
           }
         } else {

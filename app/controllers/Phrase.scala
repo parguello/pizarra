@@ -15,13 +15,14 @@ class Phrase(val cache: CacheApi) extends Controller with Logging {
   //   Ok(Json.toJson(User.findOneById(userId)))
   // }
 
-  case class Dictionary(entry: String, password: String)
+  case class Dictionary(spanish: String, english: String)
 
 
  implicit val DictionaryFromJson = (
-      (__ \ "entry").read[String] ~ (__ \ "password").read[String]
+      (__ \ "spanish").read[String] ~ 
+      (__ \ "english").read[String]
     ) (
-      (entry, password) => Dictionary(entry, password)
+      (spanish, english) => Dictionary(spanish, english)
     )
 
 
@@ -32,7 +33,7 @@ class Phrase(val cache: CacheApi) extends Controller with Logging {
       },
       dictionary => {
         log.info("adding entry to dictionary")
-        Ok(Json.obj("myresponse" -> "sssss"))
+        Ok(Json.obj("myresponse" -> "successssssss"))
       }
     )
   }
