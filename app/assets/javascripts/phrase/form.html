@@ -1,0 +1,16 @@
+<div class="page-header"><h2>Create a Spanish phrase</h2></div>
+<form name="form">
+  <fieldset>
+    <div class="form-group">
+      <label for="spanishIn">Spanish</label>
+      <input id="spanishIn" type="text" class="form-control" data-ng-model="dictionary.spanish" required />
+    </div>
+    <div class="form-group">
+      <label for="englishIn">English</label>
+      <input id="englishIn" type="text" class="form-control" data-ng-model="dictionary.english" required />
+    </div>
+    <div class="form-group">
+      <button class="btn btn-primary" data-ng-disabled="form.$invalid" data-ng-click="submit(dictionary)">Submit</button>
+    </div>
+  </fieldset>
+</form>

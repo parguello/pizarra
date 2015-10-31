@@ -40,6 +40,7 @@ class Application(val cache: CacheApi) extends Controller with Security with Log
     jsRoutesClasses.flatMap { jsRoutesClass =>
       val controllers = jsRoutesClass.getFields.map(_.get(null))
       controllers.flatMap { controller =>
+        log.debug("controller.getClass:" + controller.getClass())
         controller.getClass.getDeclaredMethods.filter(_.getName != "_defaultPrefix").map { action =>
           action.invoke(controller).asInstanceOf[play.api.routing.JavaScriptReverseRoute]
         }

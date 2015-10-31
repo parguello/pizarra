@@ -1,0 +1,227 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ross/projects/pizarra"
+	],
+	"file_history":
+	[
+		"/home/ross/projects/samples/angularjs-play-require-basic/app/views/Index.scala.html",
+		"/home/ross/projects/samples/angularjs-play-require-advance/app/views/index.scala.html",
+		"/home/ross/projects/samples/angularjs-play-require-advance/conf/routes",
+		"/home/ross/projects/samples/angularjs-play-require-basic/public/js/controllers.js",
+		"/home/ross/projects/samples/angularjs-play-require-basic/public/js/directives.js",
+		"/home/ross/projects/samples/angularjs-play-require-basic/public/js/filters.js",
+		"/home/ross/projects/samples/angularjs-play-require-basic/public/js/services.js",
+		"/home/ross/projects/samples/angularjs-play-seed/public/js/main.js",
+		"/home/ross/projects/samples/angularjs-eventual/app/views/index.scala.html",
+		"/home/ross/projects/samples/angularjs-basic/app/views/main.scala.html",
+		"/home/ross/projects/samples/angularjs-basic/app/views/index.scala.html",
+		"/home/ross/projects/samples/angularjs-ex1/app/assets/javascripts/main.js",
+		"/home/ross/projects/samples/angularjs-ex1/project/plugins.sbt",
+		"/home/ross/projects/samples/angularjs-ex1/app/controllers/Application.scala",
+		"/home/ross/projects/samples/angularjs-ex1/app/views/index.scala.html",
+		"/home/ross/projects/samples/angularjs-ex1/conf/routes",
+		"/home/ross/projects/samples/play-angular-require-seed/app/controllers/Application.scala",
+		"/home/ross/projects/samples/angularjs-mongo-template/build.sbt",
+		"/home/ross/projects/samples/angularjs-mongo-template/app/views/index.scala.html",
+		"/home/ross/projects/samples/angularjs-ex1/build.sbt.old",
+		"/home/ross/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ross/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/ross/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/ross/projects/samples/angularjs-ex1/build.sbt",
+		"/home/ross/projects/samples/angularjs-mongo-template/conf/routes",
+		"/home/ross/projects/samples/play-angular-require-seed/app/AppLoader.scala",
+		"/home/ross/projects/samples/angularjs-ex1/app/views/index.scala.html.old",
+		"/home/ross/projects/samples/angularjs-ex1/app/views/main.scala.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"*.html, *.js",
+			"*.scala",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Security",
+			"jsroutes.js",
+			"ng",
+			"jsRoutes",
+			"def jsRoutes",
+			"cache",
+			"gzip",
+			"yourprefix",
+			"angular",
+			"ctrl+",
+			"+",
+			"keys",
+			"log",
+			"ng-",
+			"ng",
+			"angular"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 229.0
+	},
+	"pinned_build_system": "",
+	"project": "pizara.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"application.scala",
+				"play-angular-require-seed/app/controllers/Application.scala"
+			],
+			[
+				"application.sca",
+				"angularjs-ex1/app/controllers/Application.scala"
+			],
+			[
+				"appl",
+				"play-angular-require-seed/app/AppLoader.scala"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 388.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

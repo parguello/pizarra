@@ -75,3 +75,6 @@ RjsKeys.paths += ("jsRoutes" -> ("/jsroutes" -> "empty:"))
 
 // All work and no play...
 emojiLogs
+
+// Nodejs engine to improve compile time of less files
+JsEngineKeys.engineType := JsEngineKeys.EngineType.Node
