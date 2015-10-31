@@ -8,6 +8,7 @@ define([], function() {
   var HomeCtrl = function($scope, $rootScope, $location, helper) {
     console.log(helper.sayHi());
     $rootScope.pageTitle = 'Pizarra';
+	$scope.date = new Date();
   };
   HomeCtrl.$inject = ['$scope', '$rootScope', '$location', 'helper'];
 
